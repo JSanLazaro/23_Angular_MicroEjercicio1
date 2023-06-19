@@ -1,0 +1,8 @@
+<h1>Formulario</h1>
+<form [formGroup] = "employeeForm">
+    <input formControlName ="name" type="text" name="fieldName" id="" placeholder="Nombre">
+    <input formControlName ="surnames" type="text" name="fieldSurnames" id="" placeholder="apellidos">
+    <input formControlName ="position" type="text" name="fieldPosition" id="" placeholder="cargo">
+    <input formControlName ="salary" type="text" name="fieldSalary" id="" placeholder="salario">
+    <button (click) = "addEmployee()" type="submit">Añadir</button>
+</form>

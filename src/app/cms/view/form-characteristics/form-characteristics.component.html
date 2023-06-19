@@ -1,0 +1,6 @@
+<h1>Formulario</h1>
+<form [formGroup] = "characteristicsForm">
+    <label for="fieldCharacteristic">Caracteristicas</label>
+    <input formControlName ="characteristic" type="text" name="fieldCharacteristic" id="" placeholder="caracteritica">
+    <button (click) = "addCharacteristic()" type="submit">Añadir caracteristica</button>
+</form>
